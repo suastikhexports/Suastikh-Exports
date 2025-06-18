@@ -30,3 +30,13 @@ const nav = document.getElementById('navbar');
     toggleButton.textContent = isCollapsed ? 'View Less' : 'View More';
   });
 
+
+  
+  const toggleBtn = document.getElementById("menu-toggle");
+  const navbar = document.getElementById("navbar");
+
+  toggleBtn.addEventListener("click", () => {
+    navbar.classList.toggle("show");
+  });
+
+
