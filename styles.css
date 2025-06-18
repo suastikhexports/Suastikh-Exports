@@ -48,13 +48,13 @@ header {
   gap: 10px;
   font-size: 1.2rem;
   font-weight: bold;
-  color:#ff7a00;
+  color:#cb4810;
   
 }
 
 .logo img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -166,6 +166,20 @@ html {
   margin-bottom: 2rem;
   color: #1a1a1a;
 }
+
+/* Optional: For even better mobile handling */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content img {
+    width: 90%;
+    max-width: 500px;
+  }
+}
+
 
 
 
