@@ -595,7 +595,7 @@ nav ul li a {
 
 .trust-section {
   background-color: #f8fafa;
-  padding: 5rem 1rem;
+padding: 90px 20px;
   text-align: center;
 }
 
@@ -655,7 +655,7 @@ nav ul li a {
 }
 
 
-/* testimonials */
+/* testimonials 
 
 .testimonials-section {
   background-color: #f3f2f2f0;
@@ -678,6 +678,7 @@ nav ul li a {
   line-height: 1.6;
 }
 
+*/
 
 
 /* Responsive */
@@ -793,7 +794,7 @@ button[type="submit"]:hover {
 
 .contact-us {
   background-color: #ecececf7;
-  padding: 90px 20px;
+  padding: 70px 20px;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 
@@ -802,6 +803,10 @@ button[type="submit"]:hover {
   align-items: center;
  
 }
+
+
+
+
 
 .contact-container {
   max-width: 600px;
