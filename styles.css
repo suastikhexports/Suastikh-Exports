@@ -946,3 +946,15 @@ button[type="submit"]:hover {
   font-size: 14px;
   color: #888;
 }
+
+
+.social-icons a {
+    text-decoration: none;   /* underline hat gayi */
+    margin: 5px 2px;          /* icons ke beech gap */
+    display: inline-block;   /* line break nahi aayegi */
+}
+
+.social-icons img {
+    vertical-align: middle;  /* image sahi line me rahe */
+}
+
